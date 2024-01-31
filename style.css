@@ -1,0 +1,125 @@
+.card {
+    width: 18rem;
+    border: solid .6rem green;
+    border-radius: 5px;
+    /*TASK 9*/
+    box-sizing: border-box;
+    padding: 2rem;
+    /*TASK 9*/
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.rounded-full {
+    clip-path: circle();
+}
+
+#card-header {
+    color: red
+}
+
+.text-white {
+    color: white;
+}
+
+div>.font-weight-light {
+    font-weight: lighter;
+}
+
+.font-weight-light {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#absolute-card {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #75ffc3;
+}
+
+div.container {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.fa {
+    padding: .3rem .3rem 0rem 0rem
+}
+
+ul.container {
+    width: 40rem;
+    padding: 0rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navLink {
+    list-style: none;
+    margin: 0rem
+}
+
+.grid {
+    display: grid;
+    margin: 2rem;
+
+    grid-template-columns: repeat(5, 6rem);
+    grid-template-rows: repeat(3, 6rem);
+    grid-template-areas: 
+        "A A C C C"
+        "A A D D E"
+        "B B D D F"; 
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    margin: .3rem;
+}
+
+.block-a {
+    background-color: #adff2f;
+    grid-area: A;
+}
+
+.block-b {
+    background-color: #db7093;
+    grid-area: B;
+}
+
+.block-c {
+    background-color: #00ffff;
+    grid-area: C;
+}
+
+.block-d {
+    background-color: #ffa500;
+    grid-area: D;
+}
+
+.block-e {
+    background-color: #008080;
+    grid-area: E;
+}
+
+.block-f {
+    background-color: #a52a2a;
+    grid-area: F;
+}
